@@ -1,4 +1,5 @@
 # 描述
+（项目CWeChatRobot中缺失了函数CReceiveMessage()，该如何接收消息，C# demo 待完善）
 PC微信机器人，实现以下功能：
 1. 获取通讯录
 2. 发送文本、图片、文件、xml文章、名片、群艾特消息
@@ -32,7 +33,7 @@ PC微信机器人，实现以下功能：
 # 目录说明
 `./CWeChatRobot`：COM组件的实现代码  
 `./DWeChatRobot`：注入的DLL实现代码，根据平台配置可编译出socket版和COM版  
-`./old_projects`:  包含C#的调用示例以及3.7.0.26版本的E语言调用  
+`./old_projects`:  包含C#的调用示例以及3.7.0.26版本的E语言调用
 `./Python`：python示例和接口测试文件  
 `./wxDriver`：driver的实现代码  
 
